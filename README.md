@@ -149,7 +149,7 @@ This repository benefits a lot from the works listed below:
 
 [zhangxiaosong18/hivit](https://github.com/zhangxiaosong18/hivit) <br>
 [sunsmarterjie/iTPN](https://github.com/sunsmarterjie/iTPN/tree/main) <br>
-[waterdisappear/SARATR-X](https://github.com/waterdisappear/SARATR-X)<br>[README.md](pretrain/dinov3/README.md)
+[waterdisappear/SARATR-X](https://github.com/waterdisappear/SARATR-X)<br>
 [waterdisappear/SAR-JEPA](https://github.com/waterdisappear/SAR-JEPA)<br>
 [MiliLab/SelectiveMAE](https://github.com/MiliLab/SelectiveMAE) <br>
 [ChenHongruixuan/BRIGHT](https://github.com/ChenHongruixuan/BRIGHT) <br>
