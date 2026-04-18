@@ -1,7 +1,7 @@
 
 
 
-<h1 align="center"> Better with Less: Tackling High-Resolution Optical-SAR Image Joint Pretraining via Conditioned and Degraded Masked Autoencoder </h1> 
+<h1 align="center"> Better with Less: Tackling Heterogeneous Multi-Modal Image Joint Pretraining via Conditioned and Degraded Masked Autoencoder </h1> 
 <h5 align="center"><em> Bowen Peng, Yongxiang Liu, Jie Zhou, Xiaodong Chen, Xiaogang Yu, Li Liu </em></h5>
 
 <p align="center">
