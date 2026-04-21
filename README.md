@@ -15,7 +15,7 @@
     <a href="#acknowledgements">Acknowledgements</a> 
 </p >
 <p align="center">
-    <a href="https://arxiv.org/abs/2410.13891"><img src="https://img.shields.io/badge/Paper-arxiv (to be appeared)-red"></a>
+    <a href="https://arxiv.org/abs/2604.16952"><img src="https://img.shields.io/badge/Paper-arxiv-red"></a>
     <a href="https://pan.baidu.com/s/1MNFYW0sU5Nkla67Aw0EL3g?pwd=vkpg"><img src="https://img.shields.io/badge/Resource-BaiduNetDisk-blue"></a>
 </p>
 
@@ -167,8 +167,8 @@ This repository benefits a lot from the works listed below:
 ```
 @ARTICLE{peng2026codemae,
   author={Peng, Bowen and Liu, Yongxiang and Jie, Zhou and Xiaodong, Chen and Xiaogang, Yu and Liu, Li},
-  journal={arXiv preprint arXiv:xxxx.xxxxx} / to be appeared,
-  title={{Better with Less}: Tackling High-Resolution Optical-SAR Image Joint Pretraining via Conditioned and Degraded Masked Autoencoder}, 
+  journal={arXiv preprint arXiv:2604.16952},
+  title={{Better with Less}: Better with Less: Tackling Heterogeneous Multi-Modal Image Joint Pretraining via Conditioned and Degraded Masked Autoencoder}, 
   year={2026},
 }
 ```
