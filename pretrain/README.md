@@ -18,11 +18,10 @@ During training, we sample optical and SAR data at a 1:1 ratio. Recall that OSPr
 First download the [iTPN](https://github.com/sunsmarterjie/iTPN/tree/main) and 
 [DINOv3-Sat-L](https://github.com/facebookresearch/dinov3) weights. 
 
-To pre-train CoDe-MAE-B with **multi-node distributed training**, run the following on 8 nodes with 8 GPUs each:
+To pre-train CoDe-MAE-B with a batch size of 2048 (8*128 pairs), run the following on 8 GPUs:
 
 ```bash
 python -m torch.distributed.launch --nproc_per_node=8 --master_port=6667 main_pretrain.py \
-        --modality Both \
         --batch_size 128 \
         --model itpn_base_dec512d8b \
         --decoder_depth 8 \
@@ -30,6 +29,7 @@ python -m torch.distributed.launch --nproc_per_node=8 --master_port=6667 main_pr
         --blr 1.5e-4 \
         --mask_ratio 0.75
         --warmup_epochs 15 \
+        --modality Both \
         --INP \
         --dino \
         --cr_layers 8 \
